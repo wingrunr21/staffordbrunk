@@ -1,0 +1,85 @@
+---
+---
+//@include inline-block;
+
+body {
+  font-family: 'MisoRegular', Helvetica, sans-serif;
+}
+
+div#header-container {
+  margin:15px 0px;
+
+  header{
+    font-size:22px;
+    margin:0 auto;
+    width:400px;
+    color:#789090;
+    line-height:24px;
+
+    nav {
+      display:inline-block;
+      margin-left:50px;
+
+      ul {
+        list-style:none;
+
+        li {
+          display:inline-block;
+
+          img {
+            margin-right:5px;
+          }
+
+          a {
+            text-decoration:none;
+            font-family:'MisoLight';
+            color:#aaaaaa;
+          }
+
+          a:hover {
+            color:#184860;
+          }
+        }
+      }
+    }
+  }
+}
+
+div#main {
+  margin-top:-10px;
+
+  article.post {
+    width: 60%;
+    margin:50px auto;
+    font-size:15px;
+    line-height:18px;
+
+    header {
+      border-bottom:1px solid #dddddd;
+      font-size:26px;
+
+      a {
+        text-decoration:none;
+      }
+
+    }
+
+    p {
+      font-family:'StMarieWebThin';
+      margin:12px 0px;
+    }
+
+    footer {
+      border-top:1px solid #dddddd;
+
+      ul {
+        list-style:none;
+        text-align:right;
+
+        li {
+          display:inline-block;
+        }
+      }
+    }
+  }
+}

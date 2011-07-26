@@ -1,0 +1,2 @@
+[pygments.styles]
+                      railscasts = pygments_style_railscasts:RailscastsStyle

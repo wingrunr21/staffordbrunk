@@ -1,0 +1,22 @@
+<article class="post">
+  <header>
+    <h2>
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </h2>
+  </header>
+  <p class="post_content">
+    {{ page.content }}
+  </p>
+  <footer>
+    <span>{{ author }}</span>
+    <ul>
+      <li></li>
+      <li>
+        {% for tag in page.categories %}
+        &middot;
+        <a href="/tags/{{tag}}" rel="tag">{{tag}}</a>
+        {% endfor %}
+      </li>
+    </ul>
+  </footer>
+</article>

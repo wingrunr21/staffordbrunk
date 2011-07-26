@@ -1,0 +1,18 @@
+---
+title: A test post
+categories: [test, ruby, chicken, Bob]
+author: Bob Dole
+---
+This is a test post.  I don't really have all that much to say.  Blabity blabity blabity.  Test test test.  What else is new?  Bla bla bla.  I really don't have anything to talk about.  I need to make this into a full paragraph for styling purposes.  Once upon a time there was a man named Bob.  Bob really liked to eat chicken.  Fried chicken, baked chicken, you name it chicken.  Bob was a chicken type of guy.
+
+Here is another paragraph.  We should talk about some ruby code:
+
+{% highlight ruby %}
+  def hi
+    5.times do
+      puts "bam!"
+    end
+  end
+{% endhighlight %}
+
+Woo wasn't that fun?

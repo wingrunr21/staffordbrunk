@@ -5,3 +5,4 @@ tmp/
 .sass-cache/
 _site
 public
+.DS_Store

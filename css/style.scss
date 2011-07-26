@@ -6,6 +6,10 @@ body {
   font-family: 'MisoRegular', Helvetica, sans-serif;
 }
 
+a {
+  text-decoration:none;
+}
+
 a:hover {
   color:#486078;
 }
@@ -14,11 +18,17 @@ div#header-container {
   margin:15px 0px;
 
   header{
-    font-size:22px;
+    font-size:21px;
     margin:0 auto;
     width:400px;
     color:#789090;
     line-height:24px;
+
+    span#title {
+      a, a:hover {
+        color:#789090;
+      }
+    }
 
     nav {
       display:inline-block;
@@ -35,7 +45,6 @@ div#header-container {
           }
 
           a {
-            text-decoration:none;
             font-family:'MisoLight';
             color:#aaaaaa;
           }
@@ -54,17 +63,13 @@ div#main {
 
   article.post {
     width: 60%;
-    margin:50px auto;
+    margin:45px auto 55px;
     font-size:15px;
     line-height:18px;
 
     header {
       border-bottom:1px solid #dddddd;
       font-size:26px;
-
-      a {
-        text-decoration:none;
-      }
 
       a:hover {
         color:#607890;
@@ -78,7 +83,7 @@ div#main {
 
     footer {
       border-top:1px solid #dddddd;
-      font-size:15px;
+      font-size:16px;
 
       ul {
         list-style:none;

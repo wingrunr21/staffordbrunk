@@ -10,7 +10,7 @@
   <footer>
     <span>{{ author }}</span>
     <ul>
-      <li></li>
+      <li>{{ page.date | date: "%B %d, %Y"}}</li>
       <li>
         {% for tag in page.categories %}
         &middot;

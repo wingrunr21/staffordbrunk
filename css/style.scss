@@ -6,6 +6,10 @@ body {
   font-family: 'MisoRegular', Helvetica, sans-serif;
 }
 
+a:hover {
+  color:#486078;
+}
+
 div#header-container {
   margin:15px 0px;
 
@@ -37,7 +41,7 @@ div#header-container {
           }
 
           a:hover {
-            color:#184860;
+            color:#789090;
           }
         }
       }
@@ -62,6 +66,9 @@ div#main {
         text-decoration:none;
       }
 
+      a:hover {
+        color:#607890;
+      }
     }
 
     p {
@@ -71,6 +78,7 @@ div#main {
 
     footer {
       border-top:1px solid #dddddd;
+      font-size:15px;
 
       ul {
         list-style:none;

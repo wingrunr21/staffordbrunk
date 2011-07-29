@@ -1,8 +1,0 @@
-setup.py
-pygments_style_railscasts/__init__.py
-pygments_style_railscasts.egg-info/PKG-INFO
-pygments_style_railscasts.egg-info/SOURCES.txt
-pygments_style_railscasts.egg-info/dependency_links.txt
-pygments_style_railscasts.egg-info/entry_points.txt
-pygments_style_railscasts.egg-info/requires.txt
-pygments_style_railscasts.egg-info/top_level.txt

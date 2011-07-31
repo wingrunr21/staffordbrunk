@@ -1,5 +1,4 @@
 module Jekyll
-  require 'coffee-script'
   class CoffeeScriptConverter < Converter
     safe true
     priority :normal

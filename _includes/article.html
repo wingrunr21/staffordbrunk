@@ -12,9 +12,9 @@
     <ul>
       <li>{{ page.date | date: "%B %d, %Y"}}</li>
       <li>
-        {% for tag in page.categories %}
+        {% for category in page.categories %}
         &middot;
-        <a href="/nk/tags/{{tag}}" rel="tag">{{tag}}</a>
+        <a href="/categories/{{category}}" rel="category">{{category}}</a>
         {% endfor %}
       </li>
     </ul>

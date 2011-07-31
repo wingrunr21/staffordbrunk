@@ -19,6 +19,7 @@ task :deploy => :"deploy:live"
 namespace :deploy do
   desc "Deploy"
   task :live => :build do
+    sh "git push origin master"
     rsync "staffordb.ru"
   end
 

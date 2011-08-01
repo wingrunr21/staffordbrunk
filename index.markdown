@@ -5,5 +5,6 @@ description: "Personal blog of Stafford Brunk, featuring adventures in Ruby, Rai
 author: Stafford Brunk
 ---
 {% for page in site.posts limit:5 %}
- {% include article.html %}
+  {% assign body = page.content %}
+  {% include article.html %}
 {% endfor %}

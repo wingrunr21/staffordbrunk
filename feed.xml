@@ -1,0 +1,19 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Stafford Brunk's Blog</title>
+		<description>Personal blog of Stafford Brunk, featuring adventures in Ruby, Rails, programming, and other fun things.</description>
+                <link>http://staffordb.ru/nk</link>
+		{% for post in site.posts limit:10 %}
+			<item>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<published>{{ post.date }}</published>
+				<link>{{ site.url }}{{ post.url }}</link>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

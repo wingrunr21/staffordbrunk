@@ -1,4 +1,4 @@
 pygments: true
 auto: true
-exclude: ['Rakefile', 'README.markdown']
+exclude: Rakefile README.markdown
 permalink: /:year/:month/:day/:title

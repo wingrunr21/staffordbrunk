@@ -24,13 +24,13 @@ div#header-container {
     color:#789090;
     line-height:24px;
 
-    span#title {
+    span {
       a, a:hover {
         color:#789090;
       }
     }
 
-    nav {
+    nav#primary_nav {
       display:inline-block;
       margin-left:50px;
 
@@ -53,6 +53,31 @@ div#header-container {
             color:#789090;
           }
         }
+      }
+    }
+
+    nav#secondary_nav {
+      position:absolute;
+      left:15px;
+      top:10px;
+
+      a {
+        font-size:15px;
+        color:#a7b6b6;
+        font-family: 'Pictos';
+      }
+
+      div {
+        float:left;
+      }
+
+      div.feed_title {
+        font-family:'MisoRegular';
+        font-size:14px;
+        display:none;
+        width:200px;
+        margin-left:5px;
+        margin-top:3px;
       }
     }
   }

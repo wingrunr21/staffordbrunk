@@ -60,6 +60,7 @@ div#header-container {
       position:absolute;
       left:15px;
       top:10px;
+      vertical-align:baseline;
 
       a {
         font-size:15px;
@@ -77,7 +78,7 @@ div#header-container {
         display:none;
         width:200px;
         margin-left:5px;
-        margin-top:3px;
+        line-height:30px;
       }
     }
   }

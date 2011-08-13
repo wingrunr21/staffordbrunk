@@ -13,7 +13,7 @@
       <li>
         {% for category in page.categories %}
         &middot;
-        <a href="/categories/{{category}}" rel="category">{{category}}</a>
+        <a href="/categories/{{category | downcase}}" rel="category">{{category | downcase}}</a>
         {% endfor %}
       </li>
     </ul>

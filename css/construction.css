@@ -1,0 +1,22 @@
+div#main {
+  position:absolute;
+  width:400px;
+  margin-left: -200px;
+  left:50%;
+  top:42%;
+  vertical-align:middle;
+}
+
+#main img {
+  height:90px;
+  display:inline;
+  float:left;
+}
+
+#main span {
+  font-family:'MisoRegular';
+  font-size:40px;
+  float:left;
+  margin-left:25px;
+  margin-top:35px;
+}

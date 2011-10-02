@@ -1,0 +1,73 @@
+div#header-container {
+  header{
+    font-size:21px;
+    color:#789090;
+    line-height:24px;
+
+    span {
+      a, a:hover {
+        color:#789090;
+      }
+    }
+
+    nav#primary_nav {
+      display:inline-block;
+
+      ul {
+        list-style:none;
+
+        li {
+          display:inline-block;
+
+          a {
+            font-family:'MisoLight';
+            color:#aaaaaa;
+          }
+
+          a:hover {
+            color:#789090;
+          }
+        }
+      }
+    }
+
+    nav#secondary_nav {
+      position:absolute;
+      left:15px;
+      top:10px;
+      vertical-align:baseline;
+
+      ul#picnav {
+        li {
+          font-size:14px;
+            vertical-align:middle;
+
+          a {
+            color:#a7b6b6;
+            float:left;
+            clear:both;
+            display:block;
+            height:16px;
+            width:16px;
+            margin:0.25em 0;
+            padding:0.25em 0.25em 0.25em 0;
+          }
+
+          div.slideout_title {
+            font-family:'MisoRegular';
+            margin-left: 0.25em;
+            float:left;
+            margin-top:0.25em;
+            width:8.1em;
+          }
+        }
+      }
+    }
+
+    section#about_me {
+      position:absolute;
+      right:15px;
+      top:10px;
+    }
+  }
+}

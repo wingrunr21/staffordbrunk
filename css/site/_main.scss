@@ -1,0 +1,39 @@
+div#main {
+  margin-top:-10px;
+
+  article.post {
+    width: 60%;
+    margin:45px auto 55px;
+    font-size:15px;
+    line-height:18px;
+
+    header {
+      border-bottom:1px solid #dddddd;
+      font-size:26px;
+
+      a:hover {
+        color:#607890;
+      }
+    }
+
+    p {
+      font-family:'Puritan20Normal';
+      margin:12px 0px;
+      font-size:16px;
+    }
+
+    footer {
+      border-top:1px solid #dddddd;
+      font-size:16px;
+
+      ul {
+        list-style:none;
+        text-align:right;
+
+        li {
+          display:inline-block;
+        }
+      }
+    }
+  }
+}

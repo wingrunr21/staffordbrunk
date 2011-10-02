@@ -1,9 +1,9 @@
 ---
 ---
-//@include inline-block;
 
 body {
   font-family: 'MisoRegular', Helvetica, sans-serif;
+  background: #f3e6ea url(../images/978-grid.png) repeat-y center top;
 }
 
 a {
@@ -14,113 +14,6 @@ a:hover {
   color:#486078;
 }
 
-div#header-container {
-  margin:15px 0px;
-
-  header{
-    font-size:21px;
-    margin:0 auto;
-    width:450px;
-    color:#789090;
-    line-height:24px;
-
-    span {
-      a, a:hover {
-        color:#789090;
-      }
-    }
-
-    nav#primary_nav {
-      display:inline-block;
-      margin-left:50px;
-
-      ul {
-        list-style:none;
-
-        li {
-          display:inline-block;
-
-          a {
-            font-family:'MisoLight';
-            color:#aaaaaa;
-          }
-
-          a:hover {
-            color:#789090;
-          }
-        }
-      }
-    }
-
-    nav#secondary_nav {
-      position:absolute;
-      left:15px;
-      top:10px;
-      vertical-align:baseline;
-
-      a {
-        font-size:15px;
-        color:#a7b6b6;
-        font-family: 'Pictos';
-      }
-
-      div {
-        float:left;
-      }
-
-      div.feed_title {
-        font-family:'MisoRegular';
-        font-size:14px;
-        display:none;
-        width:200px;
-        margin-left:5px;
-        line-height:30px;
-      }
-    }
-  }
-}
-
-div#main {
-  margin-top:-10px;
-
-  article.post {
-    width: 60%;
-    margin:45px auto 55px;
-    font-size:15px;
-    line-height:18px;
-
-    header {
-      border-bottom:1px solid #dddddd;
-      font-size:26px;
-
-      a:hover {
-        color:#607890;
-      }
-    }
-
-    p {
-      font-family:'Puritan20Normal';
-      margin:12px 0px;
-      font-size:16px;
-    }
-
-    footer {
-      border-top:1px solid #dddddd;
-      font-size:16px;
-
-      ul {
-        list-style:none;
-        text-align:right;
-
-        li {
-          display:inline-block;
-        }
-      }
-    }
-  }
-}
-div#footer-container {
-  text-align:center;
-  color:#aaaaaa;
-  font-size:14px;
-}
+@import 'site/header';
+@import 'site/main';
+@import 'site/footer';

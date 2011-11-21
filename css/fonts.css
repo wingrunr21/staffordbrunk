@@ -47,3 +47,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'Qlassik';
+    src: url('../fonts/QlassikBold_TB-webfont.eot');
+    src: url('../fonts/QlassikBold_TB-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/QlassikBold_TB-webfont.woff') format('woff'),
+         url('../fonts/QlassikBold_TB-webfont.ttf') format('truetype'),
+         url('../fonts/QlassikBold_TB-webfont.svg#QlassikBoldRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,4 +1,4 @@
 ---
-layout: post
+layout: plain
 title: About Stafford
 ---

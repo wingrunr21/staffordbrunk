@@ -1,8 +1,8 @@
 div#main {
-  margin-top:-10px;
+  margin-top:75px;
 
   article.post {
-    width: 60%;
+    width: 642px;
     margin:45px auto 55px;
     font-size:15px;
     line-height:18px;
@@ -11,8 +11,28 @@ div#main {
       border-bottom:1px solid #dddddd;
       font-size:26px;
 
-      a:hover {
+      h2 {
         color:#607890;
+
+        span.light {
+          font-family:'MisoLight';
+          color:#5D5D5D;
+        }
+
+        a:hover {
+          color:#607890;
+        }
+      }
+    }
+
+    ul#post_list {
+      margin-top:10px;
+      margin-left:10px;
+
+      li {
+        font-size:18px;
+        display:block;
+        margin-bottom:10px;
       }
     }
 

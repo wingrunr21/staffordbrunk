@@ -8,9 +8,9 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.1.1)
-    directory_watcher (1.4.0)
-    execjs (1.2.1)
+    coffee-script-source (1.1.3)
+    directory_watcher (1.4.1)
+    execjs (1.2.9)
       multi_json (~> 1.0)
     fast-stemmer (1.0.0)
     jekyll (0.11.0)
@@ -26,7 +26,7 @@ GEM
       syntax (>= 1.0.0)
     multi_json (1.0.3)
     posix-spawn (0.3.6)
-    sass (3.1.5)
+    sass (3.1.10)
     syntax (1.0.0)
 
 PLATFORMS
@@ -35,4 +35,5 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   jekyll
+  liquid (= 2.2.2)
   sass

@@ -6,3 +6,4 @@ tmp/
 _site
 public
 .DS_Store
+_cache

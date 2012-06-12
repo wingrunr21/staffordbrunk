@@ -1,5 +1,6 @@
 source "http://rubygems.org"
 gem 'sass'
 gem 'coffee-script'
-gem 'liquid', '2.2.2'
+gem 'ruby-oembed'
+gem 'liquid'
 gem 'jekyll'

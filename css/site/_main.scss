@@ -25,6 +25,11 @@ div#main {
       }
     }
 
+    img.post_image {
+      display:block;
+      margin:0 auto;
+    }
+
     ul#post_list {
       margin-top:10px;
       margin-left:10px;
@@ -40,6 +45,7 @@ div#main {
       font-family:'Puritan20Normal';
       margin:12px 0px;
       font-size:16px;
+      line-height:20px;
     }
 
     footer {

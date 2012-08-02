@@ -1,0 +1,5 @@
+---
+title: The Y6 flies!
+published: false
+categories: [quadcopter, arducopter]
+---

@@ -12,8 +12,8 @@
       <li>{{ page.date | date: "%B %d, %Y"}}</li>
       <li>
         {% for category in page.categories %}
-        &middot;
-        <a href="/categories/{{category | downcase}}" rel="category">{{category | downcase}}</a>
+          &middot;
+          <a href="/categories/{{category | downcase}}" rel="category">{{category | downcase}}</a>
         {% endfor %}
       </li>
     </ul>

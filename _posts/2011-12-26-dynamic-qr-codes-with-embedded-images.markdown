@@ -47,7 +47,7 @@ rQRCode provides a mapping of black vs white squares in an instance variable cal
   end
 {% endhighlight %}
 
-After that, I read in an SVG version of Inky, scaled it to the correct size, and applied Inky on top of the previously build QR:
+After that, I read in an SVG version of Inky, scaled it to the correct size, and applied Inky on top of the previously built QR:
 
 <img src="/images/posts/2011-12-26/inkyqr_svg.png" alt="SVG Inky QR" class="post_image" />
 

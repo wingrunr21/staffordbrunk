@@ -8,22 +8,18 @@ task :build do
   jekyll '--no-auto'
 end
 
-desc "Serve on Localhost with port 4000"
+desc "Serve on localhost with port 4000"
 task :default do
   jekyll "--server --auto"
 end
 
-desc "Deploy to Dev"
+desc "Deploy the site"
 task :deploy => :"deploy:live"
 
 namespace :deploy do
   desc "Deploy"
   task :live => :build do
     sh "git push origin master"
-    rsync "staffordb.ru"
-  end
-
-  def rsync(domain)
-    sh "rsync -avtz --rsh='ssh -p2282' _site/ wingrunr21@northpolesoftware.com:~/#{domain}/public/nk/"
+    sh "git push heroku master"
   end
 end

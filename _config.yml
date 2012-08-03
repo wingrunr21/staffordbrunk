@@ -1,4 +1,6 @@
 pygments: true
-auto: true
 exclude: Rakefile README.markdown
 permalink: /:year/:month/:day/:title
+safe: false
+server: false
+auto: false

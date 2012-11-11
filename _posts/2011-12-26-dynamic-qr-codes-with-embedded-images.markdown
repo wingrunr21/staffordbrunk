@@ -33,7 +33,7 @@ Once I got everything aligned properly, this method created decent results:
 
 That worked well except I had to get Inky essentially pixel perfect (with the white border) when I lined it up on the QR png.  This was especially important as I tried to support different sizes.  I was also limited in sizes due to ChunkyPNG creating a good amount of blurriness upon resize.  I decided I had to go the SVG route.
 
-rQRCode provides a mapping of black vs white squares in an instance variable called <tt>members</tt>.  Building the QR code from this was straightforward:
+rQRCode provides a mapping of black vs white squares in an instance variable called `members`.  Building the QR code from this was straightforward:
 
 {% highlight ruby %}
   @modules.each_index do |r|

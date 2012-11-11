@@ -1,14 +1,14 @@
 GIT
-  remote: git://github.com/mojombo/jekyll.git
-  revision: fa8400ab61cb8df176f9fb2ec52d85f93c7418a7
+  remote: git://github.com/wingrunr21/jekyll.git
+  revision: 7f5909e7f9d80fae0cd2bed19520e054e70ad4db
   specs:
     jekyll (0.11.2)
       classifier (~> 1.3)
-      directory_watcher (~> 1.1)
-      kramdown (~> 0.13.4)
-      liquid (~> 2.3)
-      maruku (~> 0.5)
-      pygments.rb (~> 0.2.12)
+      directory_watcher (~> 1.4.1)
+      kramdown (~> 0.14.0)
+      liquid (~> 2.4.1)
+      maruku (~> 0.6.1)
+      pygments.rb (~> 0.3.2)
 
 GEM
   remote: http://rubygems.org/
@@ -26,16 +26,16 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     fast-stemmer (1.0.1)
-    ffi (1.0.11)
+    ffi (1.1.5)
     heroku (2.33.0)
       heroku-api (~> 0.3.5)
       launchy (>= 0.3.2)
       netrc (~> 0.7.7)
       rest-client (~> 1.6.1)
       rubyzip
-    heroku-api (0.3.5)
-      excon (~> 0.16.1)
-    kramdown (0.13.8)
+    heroku-api (0.3.6)
+      excon (~> 0.16.7)
+    kramdown (0.14.0)
     launchy (2.1.2)
       addressable (~> 2.3)
     liquid (2.4.1)
@@ -44,10 +44,12 @@ GEM
     mime-types (1.19)
     multi_json (1.3.7)
     netrc (0.7.7)
+    posix-spawn (0.3.6)
     puma (1.6.3)
       rack (~> 1.2)
-    pygments.rb (0.2.13)
-      rubypython (~> 0.5.3)
+    pygments.rb (0.3.2)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
     rack (1.4.1)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -57,12 +59,13 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ruby-oembed (0.8.7)
-    rubypython (0.5.3)
+    rubypython (0.6.3)
       blankslate (>= 2.1.2.3)
-      ffi (~> 1.0.7)
+      ffi (>= 1.0.7)
     rubyzip (0.9.9)
-    sass (3.2.2)
+    sass (3.2.3)
     syntax (1.0.0)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
@@ -80,4 +83,5 @@ DEPENDENCIES
   rake
   rb-fsevent
   ruby-oembed
+  rubypython (= 0.6.3)
   sass

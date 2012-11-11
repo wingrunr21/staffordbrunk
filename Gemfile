@@ -5,7 +5,8 @@ gem 'sass'
 gem 'coffee-script'
 gem 'ruby-oembed'
 gem 'liquid'
-gem 'jekyll', :git => 'git://github.com/mojombo/jekyll.git'
+gem 'rubypython', '0.6.3'
+gem 'jekyll', :git => 'git://github.com/wingrunr21/jekyll.git'
 gem 'kramdown'
 
 # Server

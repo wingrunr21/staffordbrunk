@@ -7,3 +7,4 @@ _site
 public
 .DS_Store
 _cache
+.gist-cache

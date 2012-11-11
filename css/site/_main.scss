@@ -46,6 +46,16 @@ div#main {
       margin:12px 0px;
       font-size:16px;
       line-height:20px;
+
+      code {
+        white-space: nowrap;
+        margin: 0 2px;
+        padding: 0px 5px;
+        border: 1px solid #EAEAEA;
+        background-color: #F8F8F8;
+        border-radius: 3px;
+        font-size:14px;
+      }
     }
 
     footer {
